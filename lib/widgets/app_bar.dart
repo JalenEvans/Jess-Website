@@ -13,6 +13,12 @@ AppBar buildAppBar(BuildContext context, ColorScheme colorScheme) {
     actions: [
       TextButton(
         onPressed: () {
+          Navigator.pushNamed(context, '/availability');
+        },
+        child: const Text('Availability'),
+      ),
+      TextButton(
+        onPressed: () {
           Navigator.pushNamed(context, '/book-appointment');
         },
         child: const Text('Book Appointment'),

@@ -21,7 +21,7 @@ class _BookAppointmentPageState extends State<BookAppointmentPage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Text(
-                  'Book an Appointment',
+                  'Coming Soon...',
                   style: Theme.of(context).textTheme.headlineMedium,
                 ),
                 SizedBox(height: 20),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:jess_website/pages/availabilty_page.dart';
 import 'package:jess_website/pages/book_appointment_page.dart';
 import 'package:jess_website/pages/home_page.dart';
 import 'package:jess_website/pages/pricing_page.dart';
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(colorScheme: colorScheme),
       initialRoute: '/',
       routes: {
+        '/availability': (context) => const AvailabiltyPage(),
         '/book-appointment': (context) => const BookAppointmentPage(),
         '/pricing': (context) => const PricingPage(),
       },
