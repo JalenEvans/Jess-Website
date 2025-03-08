@@ -9,6 +9,7 @@
             "name": "jess_website",
             "request": "launch",
             "type": "dart",
+            "program": "lib/pages/main.dart",
             "args": [
                 "-d",
                 "chrome"
@@ -19,6 +20,7 @@
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile",
+            "program": "lib/pages/main.dart",
             "args": [
                 "-d",
                 "chrome"
@@ -29,6 +31,7 @@
             "request": "launch",
             "type": "dart",
             "flutterMode": "release",
+            "program": "lib/pages/main.dart",
             "args": [
                 "-d",
                 "chrome"
